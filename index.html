@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        * {
+            margin: 0;
+            background-color: darkgray;
+        }
+
+        body {
+            height: 100vh;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: red;
+            height: 5%;
+        }
+
+        nav {
+            background-color: orange;
+            height: 10%;
+        }
+
+        main {
+            height: 80%;
+            display: flex;
+        }
+
+        section {
+            background-color: aqua;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article {
+            background-color: rgba(113, 255, 113, 0.808);
+            width: 80%;
+            height: 50%;
+            margin: 2%;
+        }
+
+        aside {
+            background-color: blue;
+            width: 20%;
+        }
+
+        footer {
+            background-color: blueviolet;
+            height: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>
+        <section>Section
+            <article>Article1</article>
+            <article>Article2</article>
+        </section>
+        <aside>Aside</aside>
+    </main>
+    <footer>Footer</footer>
+</body>
+
+</html>
